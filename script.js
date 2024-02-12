@@ -65,3 +65,10 @@ fetch(data_url)
 		putClubSheduleToHTML(data);
 	})
 
+function updateFooter() {
+  copy = document.querySelector("p.copyright_notice")
+  year = new Date().getFullYear();
+  copy.innerHTML = `&copy iTECH ${year}`
+}
+
+updateFooter()

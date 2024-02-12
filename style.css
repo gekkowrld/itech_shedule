@@ -63,3 +63,26 @@ section.shedule_disp > div {
   font-family: 'Andika', sans-serif;
   background-color: #11192e;
 }
+
+footer {
+  background-color: #11100f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 21px;
+}
+
+
+footer div ul li {
+  list-style-type: none;
+}
+
+footer a, footer p {
+  color: #e2e2e1;
+  font-family: 'Abel', sans-serif;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
