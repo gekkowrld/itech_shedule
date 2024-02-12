@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Andika&family=Protest+Strike&display=swap');
+body {
+  background-color: #d0d2df;
+}
+p {
+  color: #1e63ff;
+  font-family: 'Abel', sans-serif;
+}
+
+h3 {
+  font-family: 'Protest Strike', sans-serif;
+}
+
+p.meet_day {
+  font-weight: bold;
+}
+section.shedule_disp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  flex-direction: column;
+}
+
+section.shedule_disp > div {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+}
+
+.today {
+  background-color: #fdf5de;
+  border-radius: 14px;
+}
+
+.multiple {
+  display: flex;
+  flex-direction: row;
+  gap: 21px;
+}
+
+.wrapper_t {
+  border: 1px solid grey;
+  padding: 0 12px;
+  border-radius: 12px;
+  font-size: 14px;
+  flex: 1;
+}
+
+.bt_note {
+  text-align: center;
+}
+
+.note_para {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 12px;
+  color: #d6dcea;
+  font-family: 'Andika', sans-serif;
+  background-color: #11192e;
+}
